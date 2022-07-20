@@ -20,4 +20,6 @@ project(argv VERSION 0.1.0)
 add_executable(argv src/argv.cpp src/shell_escape.cpp)
 target_compile_options(argv PRIVATE -Wall -Wextra)
 
+install(TARGETS argv)
+
 # EOF #
